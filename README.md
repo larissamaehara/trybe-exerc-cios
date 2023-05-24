@@ -10,27 +10,32 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 1 - Unix, Shell e Git
 
-- [ ] 1-1: _Unix & Shell_
-- [ ] 1-2: _Git - O que é e para que serve_
-- [ ] 1-3: _Git & GitHub - Entendendo os comandos_
+- [X] 1-1: _Unix & Shell_
+- [X] 1-2: _Git - O que é e para que serve_
+- [X] 1-3: _Git & GitHub - Entendendo os comandos_
 
 ##### Seção 2 - Introdução à HTML & CSS
 
-##### Bloco 1: Introdução - Unix & Shell
+- [ ] 2-1: _HTML & CSS - Estruturas de página_
+- [ ] 2-2: _HTML & CSS - Primeiros passos em CSS_
+- [ ] 2-3: _HTML & CSS - Seletores e posicionamento_
+- [ ] 2-4: _HTML Semântico_
+- [ ] 2-5: _Projeto - Lessons Learned_
 
-- [ ] 1-3: _Unix & Shell- Part 1_
-- [ ] 1-4: _Unix & Shell- Part 2_
+##### Seção 3 - Introdução à JAvaScript
 
-##### Bloco 2: Git & GitHub
+- [ ] 3-1: _Primeiros passos no JavaScript_
+- [ ] 3-2: _Array e estruturas de repetição_
+- [ ] 3-3: _Funções_
+- [ ] 3-4: _Objetos_
+- [ ] 3-5: _JSON e dia de prática_
+- [ ] 3-6: _Projeto - Supermercado Pirilampo_
 
-- [ ] 2-1: _O que é e para que serve?_
-- [ ] 2-2: _Entendendo os comandos_
-- [ ] 2-3: _Internet - Entendendo como ela funciona_
+##### Seção 4 - JavaScript: Dom, Eventos e Web Storage
 
-##### Seção 4 - DOM, Eventos e Web Storage
 - [ ] 4-1: _JavaScript - DOM e seletores_
 - [ ] 4-2: _JavaScript - Trabalhando com elementos_
-- [ ] 4-3: _JavaScript - Eventos_
-- [ ] 4-4: _JavaScript - Web Storage_
-- [ ] 4-5: _Projeto - Arte com Pixels_
-- [ ] 4-6: _Projeto - Bônus_
+- [ ] 4-3: _Eventos_
+- [ ] 4-4: _Web Storage_
+- [ ] 4-5: _Arte com Pixels_
+- [ ] 4-6: _Projeto Bônus_
