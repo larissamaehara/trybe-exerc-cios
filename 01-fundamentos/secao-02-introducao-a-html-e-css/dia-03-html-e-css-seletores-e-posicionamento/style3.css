@@ -1,0 +1,17 @@
+/* Estilos pedidos pelo exercício:
+ - O texto das tags 'h1' e 'p' estejam centralizados.
+ - A cor de fundo da sua lista mude quando o cursor estiver sobre o item.
+ - A fonte do item mude quando ele for clicado. */
+
+ h1, p{
+    text-align: center;
+ }
+
+ ul:hover, ol:hover{
+    background-color: rgba(75, 255, 115);
+ }
+
+ li:active{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+ }
