@@ -37,7 +37,7 @@ li em {
 #linguagens li:not(:nth-child(n + 4)) {
     color: blue;
   }
-.pink-bg {
+.rosa {
     background-color: pink;
   }
 
