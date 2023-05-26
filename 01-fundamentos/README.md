@@ -2,7 +2,7 @@
 
 Nesse módulo aprendi tudo que  precisei saber para iniciar minha carreira no mundo do Desenvolvimento Web, virando uma pessoa preparada para os módulos de front-end e back-end. 
 
-Aprendi:
+Aprendi a:
 - Utilizar o Shell;
 - Operar o Git e o GitHub;
 - Criar documentos HTML estilizados com CSS;
