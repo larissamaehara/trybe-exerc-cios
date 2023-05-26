@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(140, 255, 135, 0.3);
+    background-color:#E4E3D3;
 }
 
 h1{
@@ -16,21 +16,31 @@ h2{
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16pt;
-    text-align: center;
+    text-align: justify;
+    
 }
+
 div{       
     border: solid;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16pt;
     align-items: center;
+    background-color: #A9C1A2;
     justify-content: center;
-    background-color: rgba(62, 155, 110, 0.3);
-    width: 1650px;
-    border: 15px solid green;
+    border: 15px solid #337357;
     padding: 20px;
     margin: 50px;
 }
 
+#minha-foto{
+    float: left;
+    padding-right: 0.5cm;
+}
+
+.conteudo{
+    height: 400px;
+}
+
 ul{
     align-items: center;
+    font-size: 16pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
