@@ -28,38 +28,38 @@ div:nth-of-type(5){
 
 /*Estilizando cada umas das tags <h3> de cada div*/
 div:nth-of-type(1) > h3 {
-    color: rgb(156, 241, 144);
-    font-size: 18px;
+    color:black;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
+    font-style: bold;
 }
 
 div:nth-of-type(2) > h3 {
-    color: rgb(141, 216, 141);
-    font-size: 18px;
+    color: black;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
+    font-style: bold;
 }
 
 div:nth-of-type(3) > h3 {
-    color: rgb(115, 177, 115);
-    font-size: 18px;
+    color: black;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
+    font-style: bold;
 }
 
 div:nth-of-type(4) > h3 {
-    color: rgb(102, 156, 102);
-    font-size: 18px;
+    color: white;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
+    font-style: bold;
 }
 
 div:nth-of-type(5) > h3 {
-    color: rgb(58, 90, 58);
-    font-size: 18px;
+    color: black;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
+    font-style: bold;
 }
 
 /* Fazendo a terceira div ser maior que as demais. */
