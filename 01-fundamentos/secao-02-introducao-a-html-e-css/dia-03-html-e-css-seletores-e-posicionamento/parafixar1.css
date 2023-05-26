@@ -1,0 +1,74 @@
+/*Estilizando as div para que, ao passar o cursos por cima delas, elas ganhem uma borda. */
+
+div:hover{
+    border: 4px solid black
+}
+
+/*Cada div com sua cor - OBS: sem  atribuir nenhuma classe ou id aos componentes*/
+
+div:nth-of-type(1){
+    background-color: green;
+}
+
+div:nth-of-type(2){
+    background-color: orange;
+}
+
+div:nth-of-type(3){
+    background-color: rgb(128, 9, 226);
+}
+
+div:nth-of-type(4){
+    background-color: navy;
+}
+
+div:nth-of-type(5){
+    background-color: wheat;
+}
+
+/*Estilizando cada umas das tags <h3> de cada div*/
+div:nth-of-type(1) > h3 {
+    color:black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+div:nth-of-type(2) > h3 {
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+div:nth-of-type(3) > h3 {
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+div:nth-of-type(4) > h3 {
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+div:nth-of-type(5) > h3 {
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+/* Fazendo a terceira div ser maior que as demais. */
+div:nth-of-type(3) {
+    height: 100px;
+  }
+
+
+/* Deixando as tags ímpares <h3> com o texto em itálico. */
+  div:nth-child(odd) h3 {
+    font-style: italic
+  }
