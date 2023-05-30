@@ -1,6 +1,7 @@
 # DIA 1
 
-Estudo dos conceitos a seguir:
+## Estudo dos conceitos a seguir:
+
     - O que é JavaScript e para que é utilizado;
     - Variáveis;
     - Tipos primitivos;
