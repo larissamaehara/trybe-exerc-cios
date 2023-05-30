@@ -1,6 +1,10 @@
 let xadrezPeca = 'Torre';
+//A condicional switch avalia uma expressão, 
+//combinando o valor da expressão para um cláusula case,
+//e executa as instruções associadas ao case.
 
 switch (xadrezPeca.toLowerCase()) {
+    //O método toLowerCase() retorna o valor da string que foi chamada convertido para minúsculo.
     case 'rei':
         console.log('O Rei movimenta uma casa para qualquer direção.');
         break;
