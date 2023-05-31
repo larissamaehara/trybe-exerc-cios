@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Vamos praticar
 
 Ao longo desse dia, você teve descobriu que a estrutura de dados array é muito poderosa e nos permite representar um conjunto de informações. Além disso, descobriu que o loop for é muito útil pra fazer ações repetitivas, como percorrer itens de um array. Agora você vai colocar a mão na massa e resolver problemas onde a utilização de **array** e **for** são necessárias.
@@ -71,3 +72,5 @@ n = 5
 *****
 
 *De olho na dica 👀*: Esse exercício é bem mais complexo que o anterior! Não basta, aqui, imprimir somente asteriscos. Você precisa de uma lógica para imprimir espaços vazios também.
+=======
+>>>>>>> 29447a9bad75b2d3f2bf2cf8d77aeb8af84d63a8
