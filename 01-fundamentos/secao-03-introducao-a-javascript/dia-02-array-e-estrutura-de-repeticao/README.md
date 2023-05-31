@@ -1,4 +1,4 @@
-# DIA 2
+# DIA 02
 
 ## Foram estudados os seguintes conceitos:
 
