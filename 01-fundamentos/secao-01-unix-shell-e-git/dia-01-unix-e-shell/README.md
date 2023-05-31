@@ -1,4 +1,4 @@
-# DIA 1
+# DIA 01
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre Unix e Shell
 
