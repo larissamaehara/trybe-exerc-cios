@@ -1,4 +1,4 @@
-# DIA 2
+# DIA 02
 
 O objetivo dos exercícios desse dia foi colocar em prática os seus conhecimentos sobre o Git
 
