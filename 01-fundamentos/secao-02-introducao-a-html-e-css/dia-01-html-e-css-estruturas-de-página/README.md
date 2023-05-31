@@ -1,4 +1,4 @@
-# DIA 1
+# DIA 01
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre HTML & CSS - Estruturas de Páginas. Para isso precisei conhecer como a internet funciona. Aprendi as principais tags do HTML para criar a estrutura das páginas web.
 
