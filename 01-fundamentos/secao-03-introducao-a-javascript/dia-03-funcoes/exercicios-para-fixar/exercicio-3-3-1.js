@@ -1,22 +1,23 @@
 const balance = 100;
 
-function sumBalance(balance, num1) {
-    return balance + num1;
+function sumBalance(value) {
+  return value + balance;
 };
 
-function subBalance(balance, num2) {
-    return balance - num2;
+function subBalance(value) {
+  return balance - value;
 };
 
-function multBalance(balance, tax) {
-    return balance * tax;
+function multBalance(value) {
+  return value * balance;
 };
 
-function divBalance(balance, num3) {
-    return balance / num3
+function divBalance(value) {
+  return balance / value;
 };
 
-console.log(sumBalance(balance, 10));
-console.log(subBalance(balance, 60));
-console.log(multBalance(balance, 0.5));
-console.log(divBalance(balance, 10));
+// Chamadas das funções passando o valor do parâmetro
+console.log(sumBalance(300)); // 400
+console.log(subBalance(50)); // 50
+console.log(multBalance(2)); // 200
+console.log(divBalance(5)); // 20
