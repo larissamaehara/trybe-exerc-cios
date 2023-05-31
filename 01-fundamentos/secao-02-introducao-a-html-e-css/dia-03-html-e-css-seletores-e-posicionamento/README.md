@@ -1,4 +1,4 @@
-# DIA 3
+# DIA 03
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre HTML & CSS - Seletores e Posicionamento .
 Aprendi sobre box model ou “modelo de caixas” utilizado como base do CSS. 
