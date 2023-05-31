@@ -1,4 +1,6 @@
-# Importância do JavaScript
+# Seção 03: Introdução ao JavaScript
+
+## Importância do JavaScript
 
 - JavaScript é popular: o JavaScript, nos últimos 10 anos, tem sido a linguagem de programação mais popular do mundo, segundo o Stack Overflow.
 
