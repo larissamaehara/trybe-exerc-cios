@@ -1,4 +1,4 @@
- # DIA 3
+ # DIA 03
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre Git e GitHub
 
