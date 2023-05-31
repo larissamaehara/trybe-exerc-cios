@@ -1,4 +1,4 @@
-# Seção 03: Introdução ao JavaScript
+# Seção 03 - Introdução ao JavaScript
 
 ## Importância do JavaScript
 
