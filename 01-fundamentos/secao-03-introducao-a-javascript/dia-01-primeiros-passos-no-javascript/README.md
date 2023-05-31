@@ -1,4 +1,4 @@
-# DIA 1
+# DIA 01
 
 ## Estudo dos conceitos a seguir:
 
