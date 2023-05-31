@@ -1,7 +1,9 @@
-# Vamos praticar!
+# Vamos praticar
+
 Ao longo desse dia, você teve descobriu que a estrutura de dados array é muito poderosa e nos permite representar um conjunto de informações. Além disso, descobriu que o loop for é muito útil pra fazer ações repetitivas, como percorrer itens de um array. Agora você vai colocar a mão na massa e resolver problemas onde a utilização de **array** e **for** são necessárias.
 
 ## 🚀 Array e loop for
+
 Considere esse array para realizar os próximos exercícios.
 
 const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
@@ -14,16 +16,17 @@ const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 6. Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “Nenhum valor ímpar encontrado”.
 
 ## Desafio fatorial
->>>>>>> main
+
 O fatorial é a multiplicação de um número natural pelos seus antecessores, exceto o zero. Por exemplo:
 
 O fatorial é representado pelo sinal !
 Exemplo de 4 fatorial:
 4! = 4 x 3 x 2 x 1 = 24
 
- - Com base nessas informações, crie um algoritmo que imprima na tela o fatorial de 10.
+- Com base nessas informações, crie um algoritmo que imprima na tela o fatorial de 10.
 
 ## Desafio de inverter palavra
+
 Utilize a estrutura de repetição for para desenvolver um algoritmo que seja capaz de inverter uma palavra, como a palavra “banana” para “ananab”. Utilize a string abaixo como exemplo. Depois, troque-a por outras para verificar se seu algoritmo está funcionando corretamente.
 
    *De olho na dica 👀*: Pesquise sobre os seguintes métodos: split(), reverse() e join();
@@ -31,9 +34,9 @@ Utilize a estrutura de repetição for para desenvolver um algoritmo que seja ca
 let word = 'tryber';
 
 ## Desafio dos asteriscos
+
 Escreva um algoritmo que, dado um valor n, sendo n > 1, imprima na tela um quadrado feito de asteriscos de tamanho n. Por exemplo:
 
->>>>>>> main
 n = 5
 
 *****
@@ -42,24 +45,23 @@ n = 5
 *****
 *****
 
-
 ## Desafio da pirâmide de asteriscos
+
 Faça o mesmo algoritmo que antes, mas de modo que imprima um triângulo retângulo com 5 asteriscos de base. Por exemplo:
 
->>>>>>> main
 n = 5
 
 *
+
 **
 ***
 ****
 *****
 
-
 ## Desafio dos asteriscos, parte 2
+
 Agora, inverta o lado do triângulo. Por exemplo:
 
->>>>>>> main
 n = 5
 
     *
@@ -69,4 +71,3 @@ n = 5
 *****
 
 *De olho na dica 👀*: Esse exercício é bem mais complexo que o anterior! Não basta, aqui, imprimir somente asteriscos. Você precisa de uma lógica para imprimir espaços vazios também.
->>>>>>> main
