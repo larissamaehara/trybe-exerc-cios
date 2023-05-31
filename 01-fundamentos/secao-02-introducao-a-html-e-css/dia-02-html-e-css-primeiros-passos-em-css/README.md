@@ -1,4 +1,4 @@
-# DIA 2
+# DIA 02
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre HTML & CSS - Primeiros passos em CSS.
 Os requisitos do exercício são:
