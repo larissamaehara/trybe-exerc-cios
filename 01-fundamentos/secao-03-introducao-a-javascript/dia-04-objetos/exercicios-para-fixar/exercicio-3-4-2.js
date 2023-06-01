@@ -7,3 +7,7 @@ const player = {
 }
 
 console.log(typeof player);
+
+let message = `A jogadora ${player.name} ${player.lastName} tem ${player.age} anos de idade`;
+
+console.log(message);
