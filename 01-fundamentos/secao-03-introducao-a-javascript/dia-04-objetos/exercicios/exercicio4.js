@@ -33,19 +33,19 @@ for (let index = 0; index < basket.length; index += 1) {
 };
 
 // Convertemos o objeto result em um array
-const entries = Object.entries(countingFruit);
+const input = Object.entries(countingFruit);
 
 // Criação de um novo array
-let newArray = [];
+let howManyFruits = [];
 
 // Loop que irá verificar se o número de frutas é maior ou não do que 1. Caso seja maior, adicionamos a letra "s".
-for (let index = 0; index < entries.length; index += 1) {
-  if (entries[index][1] > 1) {
-    newArray.push(`${entries[index][1]} ${entries[index][0]}s`);
+for (let index = 0; index < input.length; index += 1) {
+  if (input[index][1] > 1) {
+    howManyFruits.push(`${input[index][1]} ${input[index][0]}s`);
   } else {
-    newArray.push(`${entries[index][1]} ${entries[index][0]}`);
+    howManyFruits.push(`${input[index][1]} ${input[index][0]}`);
   }
 };
 
 // Exibimos a string juntando os valores do array "newArray" com uma vírgula e um espaço em branco.
-console.log(`Sua cesta possui: ${newArray.join(', ')}.`);
+console.log(`Sua cesta possui: ${howManyFruits.join(', ')}.`);
