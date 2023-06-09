@@ -24,12 +24,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 3 - Introdução à JAvaScript
 
-- [ ] 3-1: _Primeiros passos no JavaScript_
-- [ ] 3-2: _Array e estruturas de repetição_
-- [ ] 3-3: _Funções_
-- [ ] 3-4: _Objetos_
-- [ ] 3-5: _JSON e dia de prática_
-- [ ] 3-6: _Projeto - Supermercado Pirilampo_
+- [X] 3-1: _Primeiros passos no JavaScript_
+- [X] 3-2: _Array e estruturas de repetição_
+- [X] 3-3: _Funções_
+- [X] 3-4: _Objetos_
+- [X] 3-5: _JSON e dia de prática_
+- [X] 3-6: _Projeto - Supermercado Pirilampo_
 
 ##### Seção 4 - JavaScript: Dom, Eventos e Web Storage
 
