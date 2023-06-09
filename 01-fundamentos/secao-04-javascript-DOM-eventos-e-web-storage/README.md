@@ -1,4 +1,4 @@
-# Seção 03 - JavaScript: DOM, Eventos e Web Storage
+# Seção 04 - JavaScript: DOM, Eventos e Web Storage
 
 ## Introdução
 
