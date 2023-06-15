@@ -2,12 +2,18 @@ window.onload = () => {
   const setBackgroundColor = (color) => {
     let content = document.querySelector(".content")
     content.style.backgroundColor = color
+    //Exercício 1
+    //Armazene a cor de fundo escolhida pela pessoa usuária no navegador.
+    localStorage.setItem("backgroundColor", color);
   }
 
   const setFontColor = (color) => {
     let paragraphs = document.querySelectorAll(".paragraph")
     for (let index = 0; index < paragraphs.length; index += 1) {
       paragraphs[index].style.color = color
+      //Exercício 2
+      //Armazene a cor do texto escolhida pela pessoa usuária no navegador.
+      localStorage.setItem("fontColor", color);
     }
   }
 
@@ -15,6 +21,9 @@ window.onload = () => {
     let paragraphs = document.querySelectorAll(".paragraph")
     for (let index = 0; index < paragraphs.length; index += 1) {
       paragraphs[index].style.fontSize = size
+      // Exercício 3
+      // Armazene o tamanho da fonte escolhida pela pessoa usuária no navegador.
+      localStorage.setItem("fontSize", size);
     }
   }
 
@@ -22,6 +31,9 @@ window.onload = () => {
     let paragraphs = document.querySelectorAll(".paragraph")
     for (let index = 0; index < paragraphs.length; index += 1) {
       paragraphs[index].style.lineHeight = height
+      // Exercicio 4
+      // Armazene o espaçamento entre as linhas do texto escolhido pela pessoa usuária no navegador.
+      localStorage.setItem("lineHeight", height);
     }
   }
 
@@ -29,6 +41,9 @@ window.onload = () => {
     let paragraphs = document.querySelectorAll(".paragraph")
     for (let index = 0; index < paragraphs.length; index += 1) {
       paragraphs[index].style.fontFamily = family
+      // Exercício 5
+      // Armazene o tipo da fonte (Font family) escolhida pela pessoa usuária no navegador.
+      localStorage.setItem("fontFamily", family);
     }
   }
 
@@ -72,3 +87,21 @@ window.onload = () => {
     })
   }
 }
+const initialize = () => {
+  let backgroundColor = localStorage.getItem("backgroundColor")
+  if (backgroundColor) setBackgroundColor(backgroundColor)
+
+  let fontColor = localStorage.getItem("fontColor")
+  if (fontColor) setFontColor(fontColor)
+
+  let fontSize = localStorage.getItem("fontSize")
+  if (fontSize) setFontSize(fontSize)
+
+  let lineHeight = localStorage.getItem("lineHeight")
+  if (lineHeight) setLineHeight(lineHeight)
+
+  let fontFamily = localStorage.getItem("fontFamily")
+  if (fontFamily) setFontFamily(fontFamily)
+}
+
+initialize()
