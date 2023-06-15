@@ -87,6 +87,9 @@ window.onload = () => {
     })
   }
 }
+// Exercício 6
+// Ao retornar à página, as preferências que foram salvas devem ser mantidas na tela.
+
 const initialize = () => {
   let backgroundColor = localStorage.getItem("backgroundColor")
   if (backgroundColor) setBackgroundColor(backgroundColor)
