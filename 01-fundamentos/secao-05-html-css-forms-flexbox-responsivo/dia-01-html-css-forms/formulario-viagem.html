@@ -11,16 +11,19 @@
   <!--Exercício 1-->
   <h1 id='title'>Formulário Trybe Travel</h1>
   <form id="main-form">
+  
   <!--Exercício 2-->
+  <!--Nome completo-->
   <label for="full-name">Nome Completo:</label>
   <input type="text" id="full-name" name="fullName" placeholder="Digite o seu nome completo" maxlength="40" minlength="10" required/>
-
+  <br>
+  <!--Email-->
   <label for="email">Email:</label>
   <input type="email" id="email" name="email" placeholder="Digite o seu email" maxlength="50" minlength="10" required/>
-  
   <br>
-
-  <p>Destino preferido:</p>
+  <!--Destino preferido-->
+  <label for="destinations">Destino Preferido:</label>
+  <br>
   <label for="destination-1">Cidade</label>
   <input type="radio" id="destination-1" className="radios" name="destinations" value="Cidade" required/>
   <label for="destination-2">Campo</label>
@@ -29,7 +32,34 @@
   <input type="radio" id="destination-3" className="radios" name="destinations" value="Praia" required/>
   <label for="destination-4">Montanhas</label>
   <input type="radio" id="destination-4" className="radios" name="destinations" value="Montanhas" required/>
+  <br>
+  <!--Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?-->
+  <label for="question"> Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
+  <br>
+    <textarea name="why" id="question" cols="60" rows="10" placeholder="Digite sua resposta aqui" maxlength="500"></textarea>
+  <br>
+  
+  <!--Qual a melhor data para realizar sua viagem?-->
+  <label for="date">Qual a melhor data para realizar sua viagem?</label>
+  <input type="date" id="date" />
+  <br>
 
+  <!--Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?-->
+  <label for="promo">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+  <input type="checkbox" name="promo" id="promo" />
+  <br>
+  <!--Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros-->
+  <label for="agreement">Concordo que imagens de minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+  <input type="checkbox" name="agreement" id="agreement" required />
+  
+  <!--Exercício 3-->
+  <!--Botão para enviar as informações preenchidas-->
+  <button type="submit" id="submit-btn">Enviar</button>
+  <!--Botão para limpar as informações contidas nos campos-->
+  <button type="reset" id="clear-btn">Limpar formulário</button>
+  <!---->
+  <!---->
+  <!---->
   </form>
 </body>
 
