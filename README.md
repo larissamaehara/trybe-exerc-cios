@@ -36,6 +36,32 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 4-1: _JavaScript - DOM e seletores_
 - [X] 4-2: _JavaScript - Trabalhando com elementos_
 - [X] 4-3: _Eventos_
-- [ ] 4-4: _Web Storage_
-- [ ] 4-5: _Arte com Pixels_
-- [ ] 4-6: _Projeto Bônus_
+- [X] 4-4: _Web Storage_
+- [X] 4-5: _Arte com Pixels_
+- [X] 4-6: _Projeto Bônus_
+
+##### Seção 5 - HTML e CSS: Forms, Flexbox e Responsivo
+
+- [ ] 5-1: _HTML & CSS - Forms_
+- [ ] 5-2: _ Bibliotecas JavaScript e Frameworks CSS_
+- [ ] 5-3: _CSS Flexbox - Parte 1_
+- [ ] 5-4: _CSS Flexbox - Parte 2_
+- [ ] 5-5: _Responsividade_
+- [ ] 5-6: _Projeto-Trybewarts_
+
+##### Seção 6 - Introdução à JavaScript ES6 e Testes Unitários
+
+- [ ] 6-1: _Introdução a Higher Order Functions_
+- [ ] 6-2: _Higher Order Functions - sort e map_
+- [ ] 6-3: _Higher Order Functions - filter e reduce_
+- [ ] 6-4: _JavaScript ES6 - spread operator, rest parameters e object destructuring_
+- [ ] 6-5: _JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters_
+- [ ] 6-6: _Projeto-Zoo functions_
+
+##### Seção 7 - Higher Order Functions do JavaScript ES6
+
+- [ ] 7-1: _Fluxo de exceçõs_
+- [ ] 7-2: _Primeiros passos em Jest_
+- [ ] 7-3: _Matchers e aberturas de código_
+- [ ] 7-4: _Projeto - JavaScript Testes Unitários_
+
