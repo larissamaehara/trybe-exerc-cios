@@ -8,12 +8,13 @@
   </head>
 
   <body>
-    <h1 id="title">Formulário Trybe Travel</h1>
+    <h1 id="title" class="text-bg-success p-3 text-center">Formulário Trybe Travel</h1>
     <br>
     <form id="main-form">
       <fieldset>
-      <label for="fullName">Nome Completo:</label>
-      <input
+      <label for="fullName" class="form-label">Nome Completo:</label>
+      <input 
+        class="form-control"
         type="text"
         id="fullName"
         name="fullName"
@@ -24,7 +25,8 @@
       />
       <br>
       <label for="email" class="form-label">Endereço de E-mail:</label>
-      <input
+      <input 
+        class="form-control"
         type="email"
         id="email"
         name="email"
@@ -34,7 +36,7 @@
         required
       />
       <br>
-      
+
       <label for="destinations">Destino Preferido:</label>
       <br>
       <label for="destination1">Cidade</label>
@@ -79,7 +81,8 @@
         TrybeTravel
       </label>
       <br />
-      <textarea
+      <textarea 
+        class="form-control"
         name="why"
         id="question"
         cols="60"
@@ -99,8 +102,8 @@
       </label>
       <input type="checkbox" name="agreement" id="agreement" required />
       </fieldset>
-      <button type="submit" id="submit-btn" disabled>Enviar</button>
-      <button type="reset" id="clear-btn">Limpar</button>
+      <button  class="btn btn-success btn-lg" type="submit" id="submit-btn" disabled>Enviar</button>
+      <button class="btn btn-danger btn-lg" type="reset" id="clear-btn">Limpar</button>
     </form>
   </body>
 </html>
