@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário Trybe Travel</title>
+</head>
+
+<body>
+  <!--Exercício 1-->
+  <h1 id='title'>Formulário Trybe Travel</h1>
+  <form id="main-form">
+  <!--Exercício 2-->
+  <label for="full-name">Nome Completo:</label>
+  <input type="text" id="full-name" name="fullName" placeholder="Digite o seu nome completo" maxlength="40" minlength="10" required/>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" placeholder="Digite o seu email" maxlength="50" minlength="10" required/>
+  
+  <br>
+
+  <p>Destino preferido:</p>
+  <label for="destination-1">Cidade</label>
+  <input type="radio" id="destination-1" className="radios" name="destinations" value="Cidade" required/>
+  <label for="destination-2">Campo</label>
+  <input type="radio" id="destination-2" className="radios" name="destinations" value="Campo" required/>
+  <label for="destination-3">Praia</label>
+  <input type="radio" id="destination-3" className="radios" name="destinations" value="Praia" required/>
+  <label for="destination-4">Montanhas</label>
+  <input type="radio" id="destination-4" className="radios" name="destinations" value="Montanhas" required/>
+
+  </form>
+</body>
+
+</html>
