@@ -25,25 +25,39 @@
   </section>
 
   <section class="hotel-form">
-    <label for="">Acomodações:</label>
-    <label for="bedroom-1">Comum</label>
-      <input type="radio" class="bedroom" name="bedroom">
-    
-    <label for="bedroom-2">
-      <input type="radio" class="bedroom" name="bedroom">Club
-    </label>
-    <label for="bedroom-2">
-      <input type="radio" class="bedroom" name="bedroom">Luxo
+    <label for="bedroom">Acomodações:</label>
+    <br>
+    <label for="bedroom1">Comum</label>
+      <input type="radio" id="bedroom1" className="radios" name="bedroom" class="bedroom" value="Comum">
+    <label for="bedroom2">Club</label>
+      <input type="radio" id="bedroom1" className="radios" name="bedroom" class="bedroom" value="Club">
+    <label for="bedroom3">Luxo</label>
+      <input type="radio" id="bedroom1" className="radios" name="bedroom" class="bedroom" value="Luxo"> 
+  </section>
+
+  <section class="hotel-form">
+    <label for="nPessoas">Número de hospedes
+      <select name="estado" id="nPessoas" class="nPessoas">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
     </label>
   </section>
 
   <section class="hotel-form">
-    <p>Número de hospedes</p>
-    <select name="nPessoas" id="" class="nPessoas">
-      <option value="1" > Quarto 1</option>
-    </select>
-    
+    <textarea 
+    class="obs" 
+    name="observacao"
+    id="obs"
+    cols="60"
+    rows="10"
+    placeholder="Observações"
+    maxlength="500"></textarea>
   </section>
+
+  <button  class="btn btn-success btn-lg" type="submit" id="submit-btn">Enviar</button>
   
 </body>
 
