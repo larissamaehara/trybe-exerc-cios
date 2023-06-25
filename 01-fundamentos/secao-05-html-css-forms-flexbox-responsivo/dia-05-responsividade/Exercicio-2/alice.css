@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container{
+  display: flex;
+}
+
+p {
+  padding: 20px;
+}
+
+/* Definir um breakpoint para telas pequenas */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgb(246, 171, 171);
+    font-family: sans-serif;
+  }
+  .container {
+    flex-direction: column;
+  }
+
+  p {
+    padding: 0 5px;
+    line-height: 1.5em;
+  }
+}
+
+/* Definir um breakpoint para telas médias. */
+@media screen and (min-width: 600px) {
+  body {
+     background-color: rgb(242, 242, 154);
+   }
+ 
+   .container {
+     flex-wrap: wrap;
+   }
+ }
+
+ /* Definir um breakpoint para telas grandes */
+ 
+ @media screen and (min-width: 1000px) {
+  body {
+    background-color: rgb(173, 248, 173);
+  }
+
+  .container {
+    flex-wrap: nowrap;
+  }
+}
