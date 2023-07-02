@@ -42,26 +42,27 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 5 - HTML e CSS: Forms, Flexbox e Responsivo
 
-- [ ] 5-1: _HTML & CSS - Forms_
-- [ ] 5-2: _ Bibliotecas JavaScript e Frameworks CSS_
-- [ ] 5-3: _CSS Flexbox - Parte 1_
-- [ ] 5-4: _CSS Flexbox - Parte 2_
-- [ ] 5-5: _Responsividade_
-- [ ] 5-6: _Projeto-Trybewarts_
+- [X] 5-1: _HTML & CSS - Forms_
+- [X] 5-2: _ Bibliotecas JavaScript e Frameworks CSS_
+- [X] 5-3: _CSS Flexbox - Parte 1_
+- [X] 5-4: _CSS Flexbox - Parte 2_
+- [X] 5-5: _Responsividade_
+- [X] 5-6: _Projeto-Trybewarts_
 
 ##### Seção 6 - Introdução à JavaScript ES6 e Testes Unitários
 
-- [ ] 6-1: _Introdução a Higher Order Functions_
-- [ ] 6-2: _Higher Order Functions - sort e map_
-- [ ] 6-3: _Higher Order Functions - filter e reduce_
-- [ ] 6-4: _JavaScript ES6 - spread operator, rest parameters e object destructuring_
-- [ ] 6-5: _JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters_
-- [ ] 6-6: _Projeto-Zoo functions_
+- [X] 6-1: _Fluxo de exceçõs_
+- [X] 6-2: _Primeiros passos em Jest_
+- [X] 6-3: _Matchers e aberturas de código_
+- [X] 6-4: _Projeto - JavaScript Testes Unitários_
 
 ##### Seção 7 - Higher Order Functions do JavaScript ES6
 
-- [ ] 7-1: _Fluxo de exceçõs_
-- [ ] 7-2: _Primeiros passos em Jest_
-- [ ] 7-3: _Matchers e aberturas de código_
-- [ ] 7-4: _Projeto - JavaScript Testes Unitários_
+- [ ] 7-1: _Introdução a Higher Order Functions_
+- [ ] 7-2: _Higher Order Functions - sort e map_
+- [ ] 7-3: _Higher Order Functions - filter e reduce_
+- [ ] 7-4: _JavaScript ES6 - spread operator, rest parameters e object destructuring_
+- [ ] 7-5: _JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters_
+- [ ] 7-6: _Projeto-Zoo functions_
+
 
