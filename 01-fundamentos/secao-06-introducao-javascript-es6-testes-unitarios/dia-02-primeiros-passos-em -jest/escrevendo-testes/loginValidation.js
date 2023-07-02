@@ -8,10 +8,10 @@ const loginErrorMessage = (user) => {
 }
 
 // trazemos aqui esse objeto somente para demonstrar como funciona a função verifyCredentials, mas poderiam ser quaisquer outros dados.
-const user = {
+/* const user = {
   userName: 'Joana',
   password: 123456
-}
+} */
 
 const verifyCredentials = (userInfo) => {
   const userName = userInfo.userName
