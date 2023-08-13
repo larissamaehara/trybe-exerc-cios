@@ -1,7 +1,7 @@
 import getAddressFromCep from './getAddressFromCep.js';
 
-import fetch from 'node-fetch'; //necessário em versões abaixo do Node 18.
-global.fetch = fetch; //necessário em versões abaixo do Node 18.
+import fetch from 'node-fetch'; // necessário em versões abaixo do Node 18.
+global.fetch = fetch; // necessário em versões abaixo do Node 18.
 
 test('deve retornar os dados quando passamos um cep válido', async () => {
   const address = await getAddressFromCep('30130010');
