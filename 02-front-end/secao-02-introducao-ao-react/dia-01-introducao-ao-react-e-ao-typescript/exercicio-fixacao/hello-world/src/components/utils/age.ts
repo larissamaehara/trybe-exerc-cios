@@ -8,5 +8,4 @@ export function calculateAge(birthday: string): number {
     age -= 1;
   }
   return age;
-};
-
+}
