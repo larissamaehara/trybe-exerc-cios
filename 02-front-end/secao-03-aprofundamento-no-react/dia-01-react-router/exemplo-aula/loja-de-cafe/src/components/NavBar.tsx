@@ -3,11 +3,14 @@ import './NavBar.css'
 
 function NavBar() {
   return (
-    <nav>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/coffees">Cafés</NavLink>
-    </nav>
-  )
+    <header className="nav-bar">
+      <nav className="nav">
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/coffees">Cafés</NavLink>
+      </nav>
+    </header>
+  );
 }
 
 export default NavBar;
+

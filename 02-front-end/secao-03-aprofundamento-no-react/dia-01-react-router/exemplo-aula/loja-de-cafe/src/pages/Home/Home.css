@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Courgette&display=swap');
+
 .home-page {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.home-page h1 {
+  font-family: 'Amita', cursive;
 }
 
 .home-title {

@@ -1,0 +1,19 @@
+.not-found-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  color: #49111c;
+  text-align: center;
+}
+
+.not-found-page img {
+  max-width: 15rem;
+  height: auto;
+}
+
+.not-found-info a {
+  font-size: large;
+  line-height: 3rem;
+}
