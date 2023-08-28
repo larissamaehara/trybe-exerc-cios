@@ -10,13 +10,24 @@ type Coordinates = {
 
 function App() {
   const [coordinates, setCoordinates] = useState<Coordinates | null>(null);
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     async function fetchData() {
       const data = await fetchCoordinates();
       setCoordinates({ latitude: data.latitude, longitude: data.longitude });
+      setLoading(false);
     }
     fetchData();
+
+    setInterval(() => {
+      fetchData();
+    }, 3000);
   }, []);
+
+  if (loading) {
+    return <h1>Loading...</h1>;
+  }
 
   return (
     <>
