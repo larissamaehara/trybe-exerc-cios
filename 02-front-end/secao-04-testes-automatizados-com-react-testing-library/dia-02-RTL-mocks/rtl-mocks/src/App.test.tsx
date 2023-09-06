@@ -19,6 +19,10 @@ describe('Testando fetch', () => {
     // Note que aqui indicamos que esse objeto é do tipo Response.
     // Dessa forma, o TypeScript vai entender que esse objeto possui os mesmos valores que o retorno de uma requisição;
 
+    /* global.fetch = vi.fn(() => Promise.resolve({
+      json: () => Promise.resolve(joke),
+    } as Response)); */
+
     const mockFetch = vi.spyOn(global, 'fetch').mockResolvedValue(MOCK_RESPONSE);
     // O vi.spyOn espiona as chamadas da função fetch do objeto global.
     // É por meio deste objeto que conseguimos usar qualquer função do sistema.
