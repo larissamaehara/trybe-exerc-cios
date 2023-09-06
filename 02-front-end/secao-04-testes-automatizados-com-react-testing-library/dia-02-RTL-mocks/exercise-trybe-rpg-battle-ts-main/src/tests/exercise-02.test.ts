@@ -5,7 +5,7 @@ import rollDice from '../service/rollDice';
 
 /*
     Exercício 02
-  */
+*/
 // Criando o mock para a função `rollDice` através do vi.mock.
 // Assim, podemos controlar os retornos do `rollDice` para que não sejam mais aleatórios
 vi.mock('../service/rollDice');

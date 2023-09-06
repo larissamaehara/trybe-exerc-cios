@@ -1,3 +1,7 @@
+/*
+A função attackEnemy simula um ataque a um inimigo.
+Ainda, ela compara os resultados dos dados que você rolou (da função rollMultipleDice) com a defesa do inimigo.
+*/
 import { AttackResult } from '../types';
 import rollMultipleDice from './rollMultipleDice';
 
