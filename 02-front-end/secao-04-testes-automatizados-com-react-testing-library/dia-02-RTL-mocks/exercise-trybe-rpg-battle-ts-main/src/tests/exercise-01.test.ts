@@ -1,7 +1,7 @@
 import { vi } from 'vitest';
 import rollDice from '../service/rollDice';
 
-it('testa a função `rollDice`', () => {
+it('Testa a função `rollDice`', () => {
   /*
     Exercício 01
   */

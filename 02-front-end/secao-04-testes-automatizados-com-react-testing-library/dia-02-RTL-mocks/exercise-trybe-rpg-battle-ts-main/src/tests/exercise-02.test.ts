@@ -12,7 +12,7 @@ vi.mock('../service/rollDice');
 // Para o primeiro dado, o resultado deverá ser 6.
 // Para o segundo dado rolado, o resultado deverá ser 4.
 // Não há mais aleatoriedade na função `rollMultipleDice`
-it('testa a função `rollMultipleDice`', () => {
+it('Testa a função `rollMultipleDice`', () => {
   (rollDice as any).mockReturnValueOnce(6)
     .mockReturnValueOnce(4);
   // Considerando um dado de tamanho 20 para este teste.

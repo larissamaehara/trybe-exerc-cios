@@ -17,7 +17,7 @@ beforeEach(() => {
   vi.resetAllMocks();
 });
 
-it('testa uma vitória na função `attackEnemy`', () => {
+it('Testa uma vitória na função `attackEnemy`', () => {
   // Aqui, vamos mockar o retorno da função `rollMultipleDice` para que ela traga o resultado de 40
   (rollMultipleDice as any).mockReturnValueOnce(40);
   // A função `attackEnemy` retorna um objeto...
@@ -28,7 +28,7 @@ it('testa uma vitória na função `attackEnemy`', () => {
   expect(rollMultipleDice).toHaveBeenCalledTimes(1);
 });
 
-it('testa uma derrota na função `attackEnemy`', () => {
+it('Testa uma derrota na função `attackEnemy`', () => {
   // Mockando o retorno da função `rollMultipleDice` para que ela traga o resultado de 20
   (rollMultipleDice as any).mockReturnValueOnce(20);
 
@@ -38,7 +38,7 @@ it('testa uma derrota na função `attackEnemy`', () => {
   expect(rollMultipleDice).toHaveBeenCalledTimes(1);
 });
 
-it('testa um empate nos dados', () => {
+it('Testa um empate nos dados', () => {
 // Mockando o retorno da função `rollMultipleDice` para que ela traga o resultado de 30, exatamente igual aos pontos de defesa do Hannibal
   (rollMultipleDice as any).mockReturnValueOnce(30);
 
