@@ -8,9 +8,9 @@ const TASK_DESCRIPTION = 'Beber água!';
 describe('Testando a aplicação; testando o botão e sua funcionalidade', () => {
   test('Verifica se o botão está na tela com o texto "Adicionar"', () => {
     render(<App />);
-    // Primeiro, vamos selecionar o botão com a query 'getByText'
-    // Em seguida, verificamos se o botão está na tela com o matcher 'toBeInTheDocument'
-    // Por fim, verificamos se a propriedade 'type' é igual a 'button' com o matcher 'toBe'
+    // 1- Selecionar o botão com a query 'getByText'
+    // 2- Verificar se o botão está na tela com o matcher 'toBeInTheDocument'
+    // 3- Verificar se a propriedade 'type' é igual a 'button' com o matcher 'toBe'
     const buttonAdd: HTMLButtonElement = screen.getByRole('button', { name: /adicionar/i });
     expect(buttonAdd).toBeInTheDocument();
     expect(buttonAdd.type).toBe('button');
@@ -19,10 +19,11 @@ describe('Testando a aplicação; testando o botão e sua funcionalidade', () =>
   test('Ao clicar no botão "Adicionar" a task deve ser adicionada na tela', async () => {
     render(<App />);
 
-    // Vamos selecionar o input e o botão com as queries 'getByLabelText' e 'getByText', e então adicionamos um valor no input através da biblioteca 'userEvent'
-    // Testamos se a tarefa ainda não foi inserida na tela, uma vez que ela só deve aparecer após apertarmos o botão
-    // Disparamos o clique no botão, e então verificamos que a tarefa agora aparece na tela
-    // Por fim, conferimos que o input está limpo após a inserção da tarefa
+    // 4- Selecionar o input e o botão com as queries 'getByLabelText' e 'getByText',
+    // 5- Adicionar um valor no input através da biblioteca 'userEvent'
+    // 6- Testar se a tarefa ainda não foi inserida na tela, uma vez que ela só deve aparecer após clicar no botão
+    // 7- Dispar o clique no botão, e então verificar que a tarefa agora aparece na tela
+    // 8- Conferir que o input está limpo após a inserção da tarefa
 
     const inputTask = screen.getByLabelText('Tarefa:');
     const buttonAdd = screen.getByRole('button', { name: /adicionar/i });
