@@ -71,3 +71,26 @@ it('Navega para a página About', async () => {
   await user.click(aboutLink);
   expect(screen.getByText(/Você está na página Sobre/i)).toBeInTheDocument();
 });
+
+//Renderizando um rota especifica no teste
+it('Renderiza diretamente na rota /about', async () => {
+  const { user } = renderWithRouter(<App />, { route: '/about' });
+
+  expect(screen.getByText(/Você está na página Sobre/i)).toBeInTheDocument();
+
+  const homeLink = screen.getByRole('link', { name: /Início/i });
+  await user.click(homeLink);
+  expect(screen.getByText(/Você está na página Início/i)).toBeInTheDocument();
+});
+// O teste acima é aprovado, pois ele renderiza o componente App já na página /about.
+// Agora, o teste encontra os links que são renderizados pelo componente Layout,
+// visto que a página inteira está sendo renderizada.
+
+// Testando um rota nao definida
+// Esse teste renderiza a aplicação em uma rota que não foi definida pela nossa aplicação.
+// Ao acessar essa rota, o texto Página não encontrada é renderizado.
+it('Testa rota not found', () => {
+  renderWithRouter(<App />, { route: '/something-else' });
+
+  expect(screen.getByText(/Página não encontrada/i)).toBeInTheDocument();
+});
