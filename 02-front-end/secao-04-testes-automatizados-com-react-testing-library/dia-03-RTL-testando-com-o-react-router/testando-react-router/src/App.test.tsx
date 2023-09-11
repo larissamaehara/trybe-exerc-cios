@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import userEvent from '@testing-library/user-event';
-
+import { renderWithRouter } from './utils/renderWithRouter';
 
 import App from './App';
 import About from './pages/About';
@@ -43,7 +43,7 @@ it('Renderiza o componente About', () => {
   expect(screen.getByText(/Você está na página Sobre/i)).toBeInTheDocument();
 });
 
-it('Navega para página Inicio', async () => {
+/* it('Navega para página Inicio', async () => {
   render(<About />, { wrapper: BrowserRouter });
 
   expect(screen.getByText(/Você está na página Sobre/i)).toBeInTheDocument();
@@ -51,5 +51,23 @@ it('Navega para página Inicio', async () => {
   await userEvent.click(homeLink);
 
   expect(screen.getByText(/Você está na página Início/i)).toBeInTheDocument();
+}); */
+
+// Perceba que agora não é mais necessário importar o BrowserRouter nem o render, pois isso tudo é provido pelo renderWithRouter
+it('Renderiza página inicial', () => { 
+  renderWithRouter(<App />);
+
+  expect(screen.getByText(/Você está na página Início/i)).toBeInTheDocument();
 });
 
+// Algo semelhante acontece se utilizarmos o userEvent para simular um evento de usuário:
+it('Navega para a página About', async () => {
+// Recuperamos o valor user retornado pela renderWithRouter para simular a interação de uma pessoa com a aplicação
+  const { user } = renderWithRouter(<App />);
+// O valor user nada mais é que a utilização do userEvent definida na função auxiliar. Perceba que, dessa forma, o código fica muito mais legível.
+  expect(screen.getByText(/Você está na página Início/i)).toBeInTheDocument();
+
+  const aboutLink = screen.getByRole('link', { name: /Sobre/i });
+  await user.click(aboutLink);
+  expect(screen.getByText(/Você está na página Sobre/i)).toBeInTheDocument();
+});
