@@ -4,7 +4,6 @@
   flex-direction: column;
   margin: auto;
   text-align: center;
-
   /* COLORAÇÃO */
   background-color: var(--white);
 }
@@ -14,14 +13,11 @@
   display: flex;
   flex-direction: column;
   text-align: left;
-  
   /* ESPACAMENTO */
   padding: 3.5rem;
   margin-bottom: 8px;
-  
   /* DIMENCIONAMENTO */  
   width: 35rem;
-
   /* BORDAS */
   border-bottom: 1px solid var(--gray-200);
   box-shadow: 0 1px 4px 0 var(--shadow);
@@ -39,7 +35,6 @@
   /* POSICIONAMENTO */
   display: flex;
   flex-direction: column;
-
   /* ESPACAMENTO */
   margin-bottom: 1rem;
 }
@@ -47,10 +42,8 @@
 .labels {
   /* ESPACAÇAMENTO */
   margin-bottom: 8px;
-
   /* COLORAÇÃO */
   color: var(--gray-700);
-
   /* TIPOGRAFIA */
   font-weight: bold;
 }
@@ -58,14 +51,11 @@
 .textbox {
   /* DIMENCIONAMENTO */
   height: 2.8rem;
-
   /* BORDAS */
   border: 0.05rem solid var(--gray-200);
   border-radius: 0.25rem;
-  
   /* ESPACAMENTO */
   padding: 0.8rem;
-
   /* COLORAÇÃO */
   color: var(--gray-500);
 }
@@ -77,7 +67,6 @@
 .labelDescription {
   /* TIPOGRAFIA */
   font-size: 0.85rem;
-
   /* ESPACAMENTO */
   margin-bottom: 8px;
 }

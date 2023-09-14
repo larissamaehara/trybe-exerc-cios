@@ -4,16 +4,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-  /* DIMENCIONAMENTO */
+    /* DIMENCIONAMENTO */
   height: 100vh;
   max-width: 34rem;
-
   /* COLORAÇÃO */
   background-color: var(--green-500);
   color: var(--gray-100);
-  
-  /* ESPAÇAMENTO */
+   /* ESPAÇAMENTO */
   padding: 3rem;
   gap: 5rem;
 }
@@ -26,10 +23,8 @@
 .subtitle {
   /* COLORAÇÃO */
   color: var(--gray-100);
-
   /* TIPOGRAFIA */
   font-weight: normal;
-
   /* ESPAÇAMENTO */
   margin-top: 8px;
 }

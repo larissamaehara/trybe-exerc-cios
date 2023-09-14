@@ -1,4 +1,5 @@
 :root {
+  /* VARIÁVEIS */
   --white: #fff;
 
   --background: #fafafa;
@@ -17,7 +18,7 @@
 
   --link: #771884;
 }
-
+/* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -39,19 +40,15 @@ button {
   /* DIMENSIONAMENTO */
   height: 2.75rem;
   width: 100%;
-
   /* COLORAÇÃO */
   background-color: var(--blue-300);
   color: var(--white);
-
   /* ESPACAMENTO */
   padding: 0.5rem;
   margin-top: 1rem;
-
   /* BORDAS */
   border-radius: 0.25rem;
   border: none;
-
   /* COMPORTAMENTO/ANIMAÇÃO */
   cursor: pointer;
   transition: background 200ms ease-in-out 0.025s;
@@ -64,10 +61,8 @@ button:hover {
 a {
   /* COLORAÇÃO */
   color: var(--link);
-
   /* TIPOGRAFIA */
   text-decoration: none;
-
   /* COMPORTAMENTO/ANIMAÇÃO */
   transition: color 200ms ease-in-out 0.025s;
 }
@@ -75,7 +70,6 @@ a {
 a:hover {
   /* COLORAÇÃO */
   color: var(--blue-300);
-
   /* TIPOGRAFIA */
   text-decoration: underline;
 }
