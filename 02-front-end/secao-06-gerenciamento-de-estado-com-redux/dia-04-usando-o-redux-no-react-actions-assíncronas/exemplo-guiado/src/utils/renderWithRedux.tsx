@@ -4,7 +4,7 @@ import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import thunk from 'redux-thunk';
 import { GlobalState } from '../types';
-import counterReducer from '../redux/reducers/counterReducer';
+import counterReducer from '../redux/reducers/dogReducer';
 
 function renderWithRedux(
   component: JSX.Element,

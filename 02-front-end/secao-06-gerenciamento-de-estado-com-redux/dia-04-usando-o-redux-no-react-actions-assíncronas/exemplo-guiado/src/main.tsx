@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App.tsx';
 import './index.css';
 import store from './redux/index.ts';
-
+// Passo 6: Adicionando o Provider
 ReactDOM.createRoot(document.getElementById('root') as Element).render(
   <React.StrictMode>
     <Provider store={ store }>

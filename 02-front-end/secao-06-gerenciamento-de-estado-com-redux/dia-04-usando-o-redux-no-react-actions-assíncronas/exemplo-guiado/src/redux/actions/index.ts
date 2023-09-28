@@ -43,3 +43,10 @@ export function fetchDogImage() {
     }
   };
 }
+
+// Quando essa action creator for executada, ela:
+
+// 1-Realizará o dispatch de requestStarted para indicar que a requisição foi realizada.
+// 2-Em seguida, realizará o fetch.
+// 3-Se a requisição for retornada com sucesso, realizará o dispatch de requestSuccessful.
+// 4-Caso contrário, realizará o dispatch de requestFailed.

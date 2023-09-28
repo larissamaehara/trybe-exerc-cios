@@ -1,12 +1,12 @@
+// Passo 5: Criando a store
+import { applyMiddleware, legacy_createStore as createStore } from 'redux';
 import { composeWithDevTools } from '@redux-devtools/extension';
-import { applyMiddleware, combineReducers, legacy_createStore } from 'redux';
 import thunk from 'redux-thunk';
-import counterReducer from './reducers/counterReducer';
+import dogReducer from './reducers/dogReducer';
 
-const reducer = combineReducers({
-  counterReducer,
-});
-
-const store = legacy_createStore(reducer, composeWithDevTools(applyMiddleware(thunk)));
+const store = createStore(
+  dogReducer,
+  composeWithDevTools(applyMiddleware(thunk)),
+);
 
 export default store;
