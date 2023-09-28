@@ -1,47 +1,65 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body {
+  background-color: #e1f2d5;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  animation: logo-spin 3s linear infinite;
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-.logo.trybe:hover {
-  animation: logo-spin 3s linear infinite;
-  filter: drop-shadow(0 0 2em #78d691aa);
+div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10%;
+  max-width: 80%;
 }
 
-@keyframes logo-spin {
-  from {
+button {
+  background-color: #0376e2;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 24px;
+  padding: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #032190;
+}
+
+img {
+  border: 5px solid #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 5px #555;
+  max-width: 100%;
+  max-height: 300px;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #00362b;
+  position: relative;
+  padding-left: 25px;
+}
+
+p::before {
+  animation: loading 1s infinite;
+  border: 5px solid #999;
+  border-radius: 20px;
+  border-top-color: #00362b;
+  box-sizing: border-box;
+  content: '';
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  width: 20px;
+}
+
+@keyframes loading {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+
+  100% {
     transform: rotate(360deg);
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }

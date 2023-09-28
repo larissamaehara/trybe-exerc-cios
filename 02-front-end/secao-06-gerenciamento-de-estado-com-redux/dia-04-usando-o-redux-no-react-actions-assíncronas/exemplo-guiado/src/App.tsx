@@ -5,6 +5,7 @@
 // é necessário passar a tipagem, que foi definida no arquivo types.ts:
 import { useDispatch, useSelector } from 'react-redux';
 import { Dispatch, ReduxState } from './types';
+import './App.css';
 
 // Passo 2: Realizar o dispatch da thunk action creator
 import { fetchDogImage } from './redux/actions';
