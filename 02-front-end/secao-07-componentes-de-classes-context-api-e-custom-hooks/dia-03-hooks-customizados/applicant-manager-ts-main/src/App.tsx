@@ -1,52 +1,16 @@
-import { useEffect, useState } from 'react';
 import './App.css';
 import PersonCard from './components/PersonCard';
+import useFetch from './hooks/useFetch';
+import useLocalStorage from './hooks/useLocalStorage';
 import { PersonType } from './types';
 
 function App() {
-  const [data, setData] = useState<PersonType[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const { loading, error, data, refresh } = useFetch('https://randomuser.me/api/');
+  const [approvals, setApprovals, clearApprovals] = useLocalStorage('approvals', []);
+  const [rejections, setRejections, clearRejections] = useLocalStorage('rejections', []);
 
-  const [approvals, setApprovals] = useState<PersonType[]>(
-    JSON.parse(localStorage.getItem('approvals') as string) || [],
-  );
-  const [rejections, setRejections] = useState<PersonType[]>(
-    JSON.parse(localStorage.getItem('rejections') as string) || [],
-  );
-
-  const refresh = () => {
-    setLoading(true);
-    fetch('https://randomuser.me/api/')
-      .then((response) => response.json())
-      .then(({ results }) => setData(results))
-      .catch((err) => setError(err))
-      .finally(() => setLoading(false));
-  };
-
-  useEffect(() => {
-    refresh();
-  }, []);
-
-  const setStorageApprovals = (value: PersonType[]) => {
-    localStorage.setItem('approvals', JSON.stringify(value));
-    setApprovals(value);
-  };
-
-  const setStorageRejections = (value: PersonType[]) => {
-    localStorage.setItem('rejections', JSON.stringify(value));
-    setRejections(value);
-  };
-
-  const clearApprovals = () => {
-    localStorage.removeItem('approvals');
-    setApprovals([]);
-  };
-
-  const clearRejections = () => {
-    localStorage.removeItem('rejections');
-    setRejections([]);
-  };
+  const approvalsList = approvals as PersonType[];
+  const rejectionsList = rejections as PersonType[];
 
   if (error) {
     return (
@@ -69,13 +33,13 @@ function App() {
             </button>
             <button
               type="button"
-              onClick={ () => setStorageApprovals([...approvals, data[0]]) }
+              onClick={ () => setApprovals([...approvalsList, data[0]]) }
             >
               ✅ Aprovar
             </button>
             <button
               type="button"
-              onClick={ () => setStorageRejections([...rejections, data[0]]) }
+              onClick={ () => setRejections([...rejectionsList, data[0]]) }
             >
               ❌ Reprovar
             </button>
@@ -85,8 +49,8 @@ function App() {
             <button type="button" onClick={ clearApprovals }>
               Limpar
             </button>
-            { approvals.map((person) => (
-              <PersonCard key={ person.id.value } person={ person } />
+            { approvalsList.map((person: PersonType) => (
+              <PersonCard key={ person.id.name } person={ person } />
             )) }
           </section>
           <section>
@@ -94,8 +58,8 @@ function App() {
             <button type="button" onClick={ clearRejections }>
               Limpar
             </button>
-            { rejections.map((person) => (
-              <PersonCard key={ person.id.value } person={ person } />
+            { rejectionsList.map((person: PersonType) => (
+              <PersonCard key={ person.id.name } person={ person } />
             )) }
           </section>
         </section>
