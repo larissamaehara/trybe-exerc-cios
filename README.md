@@ -77,53 +77,118 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 2 - Introdução ao React
 
-- [ ] 2-1: _Introdução ao React e ao Typescript_
-- [ ] 2-2: _Componentes React e Props_
-- [ ] 2-3: _Avançando em componentes_
-- [ ] 2-4: _Revisão - Solar System_
-- [ ] 2-5: _Estados e eventos_
-- [ ] 2-6: _Formulários_
-- [ ] 2-7: _Revisão - Store Back Office_
-- [ ] 2-8: _Projeto - Password Manager_
+- [X] 2-1: _Introdução ao React e ao Typescript_
+- [X] 2-2: _Componentes React e Props_
+- [X] 2-3: _Avançando em componentes_
+- [X] 2-4: _Revisão - Solar System_
+- [X] 2-5: _Estados e eventos_
+- [X] 2-6: _Formulários_
+- [X] 2-7: _Revisão - Store Back Office_
+- [X] 2-8: _Projeto - Password Manager_
 
 ##### Seção 3 - Aprofundamento no React
-- [ ] 3-1: _React Router_
-- [ ] 3-2: _useEffect_
-- [ ] 3-3: _Revisão - Clonando o Twitter_
-- [ ] 3-4: _Projeto - Trybetunes_
+- [X] 3-1: _React Router_
+- [X] 3-2: _useEffect_
+- [X] 3-3: _Revisão - Clonando o Twitter_
+- [X] 3-4: _Projeto - Trybetunes_
 
 ##### Seção 4 - Testes automatizados com React Testing Library
-- [ ] 4-1: _Introdução a React Testing Library_
-- [ ] 4-2: _RTL: Mocks_
-- [ ] 4-3: _RTL: Testando com React Router_
-- [ ] 4-4: _Projeto - Testes em React_
+- [X] 4-1: _Introdução a React Testing Library_
+- [X] 4-2: _RTL: Mocks_
+- [X] 4-3: _RTL: Testando com React Router_
+- [X] 4-4: _Projeto - Testes em React_
 
 ##### Seção 5 - Estilização e Metodologia Ágil
 
-- [ ] 5-1: _CSS Modules_
-- [ ] 5-2: _Styled Components_
-- [ ] 5-3: _Metodologias ágeis_
-- [ ] 5-4: _Projeto: Frontend Online Store_
+- [X] 5-1: _CSS Modules_
+- [X] 5-2: _Styled Components_
+- [X] 5-3: _Metodologias ágeis_
+- [X] 5-4: _Projeto: Frontend Online Store_
 
 ##### Seção 6 - Gerenciamento de estado com Redux
 
-- [ ] 6-1: _Introdução ao Redux - O estado global da aplicação_
-- [ ] 6-2: _Usando o Redux no React_
-- [ ] 6-3: _Revisão - Usando o Redux no React_
-- [ ] 6-4: _Usando o Redux no React - Actions Assíncronas_
-- [ ] 6-5: _Testes em React-Redux_
-- [ ] 6-6: _Projeto - TrybeWallet
+- [X] 6-1: _Introdução ao Redux - O estado global da aplicação_
+- [X] 6-2: _Usando o Redux no React_
+- [X] 6-3: _Revisão - Usando o Redux no React_
+- [X] 6-4: _Usando o Redux no React - Actions Assíncronas_
+- [X] 6-5: _Testes em React-Redux_
+- [X] 6-6: _Projeto - TrybeWallet
 
 ##### Seção 7 - Componentes de Classes, Context API e Custom Hooks
 
-- [ ] 7-1: _Componentes de Classes_
-- [ ] 7-2: _Context API_
-- [ ] 7-3: _Hooks Customizados_
-- [ ] 7-4: _Projeto - StarWars_
+- [X] 7-1: _Componentes de Classes_
+- [X] 7-2: _Context API_
+- [X] 7-3: _Hooks Customizados_
+- [X] 7-4: _Projeto - StarWars_
 
 ##### Seção 8 - Projeto - App de Receitas
-- [ ] 8-1: _Projeto - App de Receitas_
+- [X] 8-1: _Projeto - App de Receitas_
 
 ## Back-end
+
+##### Seção 1 - Docker: Utilizando Containers
+
+- [X] 1-1: _Utilizando Containers - Docker_
+- [X] 1-2: _Manipulando Imagens no Docker_
+- [X] 1-3: _Orquestrando Containers com Docker Compose_
+- [X] 1-4: _Projeto - Docker Todo-List_
+
+##### Seção 2 - Introdução à SQL
+
+- [X] 2-1: _Introdução a Banco de Dados_
+- [X] 2-2: _Como atualizar e remover dados de um banco_
+- [X] 2-3: _Relacionamentos - Parte 1_
+- [X] 2-4: _Relacionamentos - Parte 2_
+- [X] 2-5: _Relacionamentos - Parte 3 e Relatórios Avançados_
+- [X] 2-6: _Projeto - Trybefy_
+
+##### Seção 3 - Introdução ao desenvolvimento Web com Node.js
+- [ ] 3-1: _Node.js: Runtime Assíncrono_
+- [ ] 3-2: _Node.js: API REST com Express_
+- [ ] 3-3: _Node.js: Testes de Integração_
+- [ ] 3-4: _Node.js: Express e Middlewares_
+- [ ] 3-5: _Node.js: Express e MySQL_
+- [ ] 3-6: _Projeto - Talker Manager_
+
+##### Seção 4 - Arquitetura de Software: Model, Service e Controller
+- [ ] 4-1: _Arquitetura de Software: Camada Model_
+- [ ] 4-2: _Arquitetura de Software: Refatorando Camada Model_
+- [ ] 4-3: _Arquitetura de Software: Camada Service_
+- [ ] 4-4: _Arquitetura de Software: Refatorando Camada Service_
+- [ ] 4-5: _Arquitetura de Software: Refatorando Camada Controller_
+- [ ] 4-6: _Projeto - Store Manager_
+
+##### Seção 5 - Node.js: ORM e Autenticação
+
+- [ ] 5-1: _ORM - Interface da aplicação com o banco de dados_
+- [ ] 5-2: _ORM - Associations 1:1 e 1:N_
+- [ ] 5-3: _ORM - Associations N:N e Transactions_
+- [ ] 5-4: _JWT - (JSON Web Token)_
+- [ ] 5-5: _Projeto - API de Blogs_
+
+##### Seção 6 - Masterclass: Implantação de Aplicações na Nuvem
+
+- [ ] 6-1: _Infraestrutura: Deploy com Railway_
+
+##### Seção 7 - Introdução a TypeScript
+
+- [ ] 7-1: _Aprendendo TypeScript_
+- [ ] 7-2: _Introdução a Generics_
+- [ ] 7-3: _API REST com Express, JWT, Sequelize e TypeScript_
+- [ ] 7-4: _Testando Aplicações com TypeScript_
+- [ ] 7-5: _Projeto - Trybesmith_
+
+##### Seção 8 - Programação Orientada a Objetos (POO) e SOLID
+- [ ] 8-1: _Introdução à Orientação a Objetos_
+- [ ] 8-2: _Herança e Composição_
+- [ ] 8-3: _Polimorfismo_
+- [ ] 8-4: _SOLID - Introdução e Princípiios S, O e D_
+- [ ] 8-5: _SOLID - Princípios L e I_
+- [ ] 8-6: _Projeto - Trybers and Dragons
+
+##### Seção 9 - Projeto - TFC - Trybe Futebol Clube
+- [ ] 9-1: _Express com Classes_
+- [ ] 9-2: _Projeto - TFC - Trybe Futebol Clube_
+
 
 ## Ciência da Computação
