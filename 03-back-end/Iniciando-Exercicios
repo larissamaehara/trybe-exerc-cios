@@ -1,0 +1,50 @@
+npm init -y
+
+Express: npm i express@4.17.1 --save-exact
+
+Linter e Git:
+npm i eslint@6.8.0 eslint-config-trybe-backend@1.0.1 --save-dev --save-exact
+touch .eslintignore .eslintrc.json
+
+// .eslintignore
+node_modules
+
+// .eslintrc.json
+{
+  "env": {
+    "es2020": true
+  },
+  "extends": "trybe-backend",
+  "rules": {
+    "sonarjs/no-duplicate-string": ["error", 5]
+  }
+}
+
+touch .gitignore
+
+// .gitignore
+node_modules
+
+Criando Servidor:
+app.js:
+// src/app.js
+const express = require('express');
+
+const app = express();
+
+module.exports = app;
+
+// src/server.js
+const app = require('./app');
+
+app.listen(3001, () => console.log('server running on port 3001'));
+
+// package.json
+
+"start": "node src/server.js",
+"dev": "nodemon src/server.js",
+"lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json ."
+
+nodemon:
+npm i nodemon@2.0.15 --save-dev --save-exact
+
