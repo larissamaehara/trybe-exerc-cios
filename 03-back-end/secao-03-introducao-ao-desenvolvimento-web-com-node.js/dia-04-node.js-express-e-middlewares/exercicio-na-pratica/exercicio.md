@@ -102,12 +102,12 @@ Agora, faça os exercícios abaixo:
   - Sugestão: { "message": "Campos ausentes!" }.
 - Gerar um token aleatório válido;
 - Retornar o status 200 e uma mensagem contendo o token (formato json);
-  - Sugestão: { token: '<token-aleatorio>' }.
+  - Sugestão: { token: < token-aleatorio > }.
 De olho na dica👀: Para gerar o token você pode utilizar a função randomBytes, do módulo crypto do Node, dessa forma:
 
-```
+```js
 
- const crypto = require('crypto');
+const crypto = require('crypto');
 
 function generateToken() {
   return crypto.randomBytes(8).toString('hex');
