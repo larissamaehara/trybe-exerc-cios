@@ -143,12 +143,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 2-6: _Projeto - Trybefy_
 
 ##### Seção 3 - Introdução ao desenvolvimento Web com Node.js
-- [ ] 3-1: _Node.js: Runtime Assíncrono_
-- [ ] 3-2: _Node.js: API REST com Express_
-- [ ] 3-3: _Node.js: Testes de Integração_
-- [ ] 3-4: _Node.js: Express e Middlewares_
-- [ ] 3-5: _Node.js: Express e MySQL_
-- [ ] 3-6: _Projeto - Talker Manager_
+- [X] 3-1: _Node.js: Runtime Assíncrono_
+- [X] 3-2: _Node.js: API REST com Express_
+- [X] 3-3: _Node.js: Testes de Integração_
+- [X] 3-4: _Node.js: Express e Middlewares_
+- [X] 3-5: _Node.js: Express e MySQL_
+- [X] 3-6: _Projeto - Talker Manager_
 
 ##### Seção 4 - Arquitetura de Software: Model, Service e Controller
 - [ ] 4-1: _Arquitetura de Software: Camada Model_
