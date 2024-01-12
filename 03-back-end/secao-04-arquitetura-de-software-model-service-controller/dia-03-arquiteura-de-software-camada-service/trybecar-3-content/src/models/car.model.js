@@ -32,8 +32,18 @@ const findById = async (carId) => {
   return camelize(car);
 };
 
+const findByLicensePlate = async (licensePlate) => {
+  const [[car]] = await connection.execute(
+    'SELECT * FROM cars WHERE license_plate = ?',
+    [licensePlate],
+  );
+
+  return car;
+};
+
 module.exports = {
   insert,
   findAll,
   findById,
+  findByLicensePlate,
 };
