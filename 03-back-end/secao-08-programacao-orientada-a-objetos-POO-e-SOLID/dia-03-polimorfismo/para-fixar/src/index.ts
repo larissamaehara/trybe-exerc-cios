@@ -50,3 +50,4 @@ samus.specialMove(); */
 
 Character.characterPresentation(yoshi);
 Character.characterPresentation(samus);
+
