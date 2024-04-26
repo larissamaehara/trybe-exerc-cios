@@ -12,7 +12,10 @@
 
 3. Quais as vantagens de usar _debugger_ do VS Code?
 
-  [-]Parar a execução do código em um ponto específico;
-  [-]Executar o código passo a passo
-  [-]Visualizar o valor das variáveis em cada passo da execução do código
-  [-]Executar o código em modo de debug sem precisar alterar o código
+- Parar a execução do código em um ponto específico;
+
+- Executar o código passo a passo
+  
+- Visualizar o valor das variáveis em cada passo da execução do código
+  
+- Executar o código em modo de debug sem precisar alterar o código
