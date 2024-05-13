@@ -1,0 +1,13 @@
+Exercício 2
+Usando o banco de dados trybnb devidamente carregado via container:
+
+Realize a inserção de três documentos na coleção places que contenham os atributos _id, name e description utilizando o método insertMany();
+DICA 01: No campo _id utiliza valores iguais ou maiores de 100 para evitar conflito com registros existentes.
+
+DICA 02: Nos campos name e description pode-se utilizar valores aleatórios. O que é esperado de você é saber utilizar os métodos de inserção independente dos valores utilizados.
+
+db.places.insertMany(
+  [
+    { '_id': 101, 'name': 'Casa na Sol', 'description': 'Apesar de distante, um lugar com clima sempre quente!' },
+    { '_id': 102, 'name': 'Casa em Marte ', 'description': 'Ambiente calmo e inóspito onde é possível encontrar alguns robôs!'},
+    { '_id': 103, 'name': 'Casa em Plutão', 'description': 'Para quem deseja ficar distante de tudo e de todes!'}])
