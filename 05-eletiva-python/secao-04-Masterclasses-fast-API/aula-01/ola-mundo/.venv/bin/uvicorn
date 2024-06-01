@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' /home/larissamaehara/Documentos/TRYBE/trybe-exercicios/05-eletiva-python/secao-04-Masterclasses-fast-API/aula-01/ola-mundo/.venv/bin/python3 "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from uvicorn.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

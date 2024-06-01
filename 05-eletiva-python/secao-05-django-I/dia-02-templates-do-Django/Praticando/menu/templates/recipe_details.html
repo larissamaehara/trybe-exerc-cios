@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    Detalhes da Receita
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    {% if recipe.image %}
+        <div class="text-center mb-4">
+            <img src="{% static recipe.image.url %}" class="img-fluid rounded" alt="Imagem da receita">
+        </div>
+    {% endif %}
+    <h1 class="mb-4">{{ recipe.name }}</h1>
+    <div class="card">
+        <div class="card-body">
+            <p class="card-text"><strong>Ingredientes:</strong> {{ recipe.ingredients }}</p>
+            <p class="card-text"><strong>Instruções:</strong> {{ recipe.instructions }}</p>
+            <p class="card-text"><strong>Data de criação:</strong> {{ recipe.created_at|date:"d/m/Y H:i" }}</p>
+            <p class="card-text"><strong>Última atualização:</strong> {{ recipe.updated_at|date:"d/m/Y H:i" }}</p>
+        </div>
+    </div>
+    <div class="mt-4">
+        <a href="{% url 'delete-recipe' recipe.id %}" class="btn btn-danger">Excluir Receita</a>
+        <a href="{% url 'recipes-list' %}" class="btn btn-secondary">Voltar para a Lista</a>
+      </div>
+    </div>
+</div>
+{% endblock %}
