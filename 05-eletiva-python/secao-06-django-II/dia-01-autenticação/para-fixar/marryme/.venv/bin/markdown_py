@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' /home/larissamaehara/Documentos/TRYBE/trybe-exercicios/05-eletiva-python/secao-06-django-II/dia-01-autenticação/para-fixar/marryme/.venv/bin/python3 "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from markdown.__main__ import run
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(run())
