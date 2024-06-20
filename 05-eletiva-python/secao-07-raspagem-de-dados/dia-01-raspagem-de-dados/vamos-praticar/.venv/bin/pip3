@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' /home/larissamaehara/Documentos/TRYBE/trybe-exercicios/05-eletiva-python/secao-07-raspagem-de-dados/dia-01-raspagem-de-dados/vamos-praticar/.venv/bin/python3 "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
