@@ -1,0 +1,119 @@
+1719007759970	geckodriver	INFO	Listening on 127.0.0.1:56485
+1719007762821	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/sna ... te" "--remote-debugging-port" "49649" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile54CAvq"
+Gtk-Message: 19:09:22.993: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719007778163	Marionette	INFO	Marionette enabled
+1719007787412	Marionette	INFO	Listening on port 44861
+WebDriver BiDi listening on ws://127.0.0.1:49649
+Read port: 44861
+Read port: 44861
+1719007789863	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:49649/devtools/browser/ce4ba749-f4ab-4c02-8ffb-ff00467bf36e
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 939))
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1719007807842	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719007911612	geckodriver	INFO	Listening on 127.0.0.1:33577
+1719007911993	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/sna ... ss" "--remote-debugging-port" "46161" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePDRHJn"
+*** You are running in headless mode.
+Gtk-Message: 19:11:52.052: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719007912331	Marionette	INFO	Marionette enabled
+1719007915946	Marionette	INFO	Listening on port 35229
+WebDriver BiDi listening on ws://127.0.0.1:46161
+Read port: 35229
+Read port: 35229
+1719007917406	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:46161/devtools/browser/7c63f955-8d7c-48d5-b991-48fe8a4fed51
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 939))
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1719007942707	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ttep1hf2xTKPY5HV4abLvqDFRXZuZQmhABAIUKmOBs4.js line 2 > eval line 7119 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://a.ad.gt/api/v1/u/matches/95?url=https%3A%2F%2Fwww.wikimetal.com.br%2Firon-maiden-scorpions-kiss-veja-melhores-albuns-1982%2F&ref=, line 219: TypeError: d.body is null
+JavaScript error: https://cdn.hadronid.net/hadron.js?partner_id=95&sync=1&url=https%3A%2F%2Fwww.wikimetal.com.br%2Firon-maiden-scorpions-kiss-veja-melhores-albuns-1982%2F, line 1: TypeError: w.body is null
+1719008411865	geckodriver	INFO	Listening on 127.0.0.1:59811
+1719008412402	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/sna ... te" "--remote-debugging-port" "45959" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerfJLNA"
+Gtk-Message: 19:20:12.422: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719008416117	Marionette	INFO	Marionette enabled
+1719008422083	Marionette	INFO	Listening on port 40083
+WebDriver BiDi listening on ws://127.0.0.1:45959
+Read port: 40083
+Read port: 40083
+Read port: 40083
+1719008424493	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:45959/devtools/browser/2a3caff0-03f3-4ff4-8235-46d372732628
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 939))
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1719008447235	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719008459555	Marionette	INFO	Stopped listening on port 44861
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+c@https://diolinux.com.br/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js:1:9405
+
+1719008483666	Marionette	INFO	Stopped listening on port 40083
+console.error: "Could not load engine" "google@search.mozilla.org" (new Error("XPIProvider can't start bootstrap scope for google@search.mozilla.org after shutdown was already granted", "resource://gre/modules/addons/XPIProvider.sys.mjs", 1965))
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:107:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:912:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:817:38
+
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.error: "Could not load engine" "wikipedia@search.mozilla.org" (new Error("XPIProvider can't start bootstrap scope for wikipedia@search.mozilla.org after shutdown was already granted", "resource://gre/modules/addons/XPIProvider.sys.mjs", 1965))
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.error: "Could not load engine" "bing@search.mozilla.org" (new Error("XPIProvider can't start bootstrap scope for bing@search.mozilla.org after shutdown was already granted", "resource://gre/modules/addons/XPIProvider.sys.mjs", 1965))
+console.error: "Could not load engine" "ddg@search.mozilla.org" (new Error("XPIProvider can't start bootstrap scope for ddg@search.mozilla.org after shutdown was already granted", "resource://gre/modules/addons/XPIProvider.sys.mjs", 1965))
+console.error: SearchService: "Could not find a replacement default engine."
+console.error: WebExtensions: 
+  Message: [Exception... "#init: abandoning init due to shutting down"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "JS frame :: resource://gre/modules/SearchService.sys.mjs :: #init :: line 1401"  data: no]
+  Stack:
+    #init@resource://gre/modules/SearchService.sys.mjs:1401:27
+
+console.error: URLBar - Provider.UrlbarProviderSearchTips: ({})
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1401: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1401: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1401: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+console.warn: services.settings: main/hijack-blocklists sync interrupted by shutdown
+console.warn: services.settings: main/pioneer-study-addons-v1 sync interrupted by shutdown
+console.warn: services.settings: main/top-sites sync interrupted by shutdown
+console.warn: services.settings: main/doh-providers sync interrupted by shutdown
+console.warn: services.settings: main/doh-config sync interrupted by shutdown
+console.warn: services.settings: main/devtools-devices sync interrupted by shutdown
+console.warn: services.settings: main/websites-with-shared-credential-backends sync interrupted by shutdown
+console.warn: services.settings: main/language-dictionaries sync interrupted by shutdown
+console.warn: services.settings: main/password-recipes sync interrupted by shutdown
+console.warn: services.settings: main/password-rules sync interrupted by shutdown
+console.warn: services.settings: main/addons-manager-settings sync interrupted by shutdown
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+console.warn: services.settings: main/translations-wasm sync interrupted by shutdown
+console.warn: services.settings: main/search-config-icons sync interrupted by shutdown
+console.warn: services.settings: main/search-config-overrides sync interrupted by shutdown
+console.warn: services.settings: main/search-default-override-allowlist sync interrupted by shutdown
+console.warn: services.settings: main/search-config-overrides-v2 sync interrupted by shutdown
+console.warn: services.settings: main/search-config sync interrupted by shutdown
+console.warn: services.settings: main/fingerprinting-protection-overrides sync interrupted by shutdown
+console.warn: services.settings: main/url-classifier-skip-urls sync interrupted by shutdown
+console.warn: services.settings: main/translations-models sync interrupted by shutdown
+console.warn: services.settings: main/cookie-banner-rules-list sync interrupted by shutdown
+console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+console.warn: services.settings: main/devtools-compatibility-browsers sync interrupted by shutdown
+console.warn: services.settings: main/search-config-v2 sync interrupted by shutdown
+console.warn: services.settings: main/search-telemetry-v2 sync interrupted by shutdown
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1279: Error: SearchService failed while it was initializing.
+JavaScript error: resource://activity-stream/lib/TopSitesFeed.sys.mjs, line 134: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "SearchService failed while it was initializing." {file: "resource://gre/modules/SearchService.sys.mjs" line: 1279}]'[JavaScript Error: "SearchService failed while it was initializing." {file: "resource://gre/modules/SearchService.sys.mjs" line: 1279}]' when calling method: [nsISearchService::defaultEngine]
+console.error: SearchSettings: "_write: Could not write to settings file:" (new Error("cannot write without any engine.", "resource://gre/modules/SearchSettings.sys.mjs", 280))
