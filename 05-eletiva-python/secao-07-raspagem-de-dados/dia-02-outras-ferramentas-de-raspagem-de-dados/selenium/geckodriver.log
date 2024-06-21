@@ -69,3 +69,4 @@ console.error: (new TypeError("this._searchProviderInfo is null", "resource:///m
 console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 939))
 console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 939))
 console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 939))
+1719002499751	Marionette	INFO	Stopped listening on port 41337
